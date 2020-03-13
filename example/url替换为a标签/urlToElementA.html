@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    </div>
+    <script>
+        var  str = "2131asdhttps://tool.oschina.net/regex撒大声地打算 阿达";
+        var reg = /((http|ftp|https):\/\/)?[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?/g;
+        var n = str.replace(reg, (a) => {
+            return `<a href="${a}" target="_blank">${a}</a>`
+        });
+        document.body.innerHTML = n;
+    </script>
+</body>
+</html>
