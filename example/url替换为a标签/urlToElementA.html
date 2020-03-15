@@ -46,7 +46,8 @@
             console.log(dom.childNodes)
             dom.childNodes.forEach(item => {
                 console.log(item)
-                if (item.innerHTML && item.innerHTML.search(REG) !== -1) {
+                // !item.innerHTML.includes('↵')：加这个判断主要是为了性能优化，每个换行的html元素都会生成 '↵ ' 文本表示换行
+                if (item.innerHTML && item.innerHTML.search(REG) !== -1 && !item.innerHTML.includes('↵')) {
                     item.innerHTML = urlToHtmlElA(item.innerHTML)
                 }
             })
