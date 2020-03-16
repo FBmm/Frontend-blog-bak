@@ -15,3 +15,10 @@
 document 对象是 html 文档的根节点
 可以通过 document 访问所有元素
 
+### [target].addEventListener(event, function, useCapture) 方法
+
+- document.addEventListener() 文档添加事件监听
+- element.addEventListener() 指定元素添加事件监听
+- [targetEl].removeEventListener() 移除事件监听
+- 参数event：事件名称，不使用 'on' 前缀
+- 参数useCapture：可选值，默认为false。true 表示事件在捕获阶段执行，false 表示事件在冒泡阶段执行。 
