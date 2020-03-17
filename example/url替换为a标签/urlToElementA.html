@@ -10,8 +10,8 @@
     <div id="wrap">
         <h1>标题</h1>
         <p>这是内容，这是内容，这是内容，这是内容。</p>
-        <p>wwww.baidu.com</p>
-        <p>wwww.baidu.comwwww.baidu.com</p>
+        <p>www.baidu.com </p>
+        <p>www.baidu.comwwww.baidu.com </p>
     </div>
     <button onclick="replcaeAll()">替换</button>
     <script>
@@ -29,7 +29,8 @@
 
         function urlToHtmlElA(str) {
             return str.replace(REG, (a) => {
-                return `<a href="${a}" target="_blank">${a}</a>`
+                // replace('&nbsp;','') 去空格 避免链接中生成无效&nbsp;
+                return `<a href="${a.replace('&nbsp;','')}" target="_blank">${a}</a>`
             });
         }
 
