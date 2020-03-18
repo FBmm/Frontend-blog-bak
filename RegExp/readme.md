@@ -48,3 +48,44 @@ $   匹配字符的结束位置
 $   匹配字符串结束的位置
 \b  匹配单词边界
 \B  匹配非单词边界
+
+- 限定符跟定位符不能一起用，因为定位符的位置只有一个，固定的。没必要匹配多个
+- 区分定位符的 ^(表示开始位置) 跟 [^(非)]
+
+> 单词边界：
+> 非单词边界：
+
+### 定位符例子
+
+匹配以 www 开始的字符
+``` js
+/^www/
+// /^www/.test('www.baidu.com') -> true
+// /^www/.test('wwww.baidu.com') -> true
+// /^www/.test('http://www.baidu.com') -> false
+```
+
+匹配以 .com 结束的字符
+``` js
+/.com$/
+// /.com$/.test('www.baidu.com') -> true
+// /.com$/.test('www.baidu.cn') -> false
+```
+
+匹配以 .com 结束的字符
+``` js
+/.com$/
+// /.com$/.test('www.baidu.com') -> true
+// /.com$/.test('www.baidu.cn') -> false
+```
+
+## 非打印字符
+
+\s  空白字符（空格、制表符、换页符）= [\f\n\r\t\v]
+\S  非空白字符 = [^\r\n\f\t\v] = [^\s]
+\n  换行符
+\r  回车符
+\f  换页符
+\t  制表符
+\v  垂直制表符
+\cx 
