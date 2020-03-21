@@ -10,11 +10,11 @@
     - [html元素](HTML/html元素.md)
 
 - js
-    - [dom操作](js/DOM操作.md)
-    - [原型链](js/原型链.md)
+    - [dom操作](JS/DOM操作.md)
+    - [原型链](JS/原型链.md)
 
 - js 应用
-    - [手写Promise](js/Promise/手写promise.js)
+    - [手写Promise](JS/Promise/手写promise.js)
     - [adEventListener、冒泡事件](example/dom操作/addEventListener.html)
     - [url替换为a标签](example/url替换为a标签/urlToElementA.html)
 
