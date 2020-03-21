@@ -18,6 +18,10 @@
     - [adEventListener、冒泡事件](example/dom操作/addEventListener.html)
     - [url替换为a标签](example/url替换为a标签/urlToElementA.html)
 
+- nodeJS
+    - [egg+mongoose](https://github.com/FBmm/egg-mongoose-example)
+    - [egg+mysql](https://github.com/FBmm/egg-mysql-example)
+
 - 正则
     - [js正则表达式](RegExp/readme.md)
     - [正则测试](RegExp/正则test.html)
@@ -31,4 +35,9 @@
     - 数据结构
     - 设计模式
     - [计算机网络](计算机基础/计算机网络.md)
+
+- 数据库
+    - [MongoDB](https://github.com/FBmm/Mongodb-blog)
+    - Mysql
+
 
