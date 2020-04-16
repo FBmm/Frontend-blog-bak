@@ -14,9 +14,7 @@
 
 - git
   - Git History - 查看git log
-  - GitLens - 显示文件最近的commit和作者，显示当前行commit信息
-
-个人感觉 Git History 比 GitLens 好用
+  - GitLens - 显示每一行commit信息
 
 - open in browser - 自动在浏览器打开html文件
 
