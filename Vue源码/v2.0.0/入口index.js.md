@@ -3,9 +3,7 @@
 相对路径 - src\core\index.js
 
 - 主要是执行一些全局配置相关的逻辑
-- 使用 initGlobalAPI 装饰 Vue 对象
 - 设置 Vue.prototype.$isServer getter 方法
-- 设置 vue 版本信息
 
 ## import
 
@@ -38,7 +36,7 @@ import Vue from './instance/index'
 - 通过 initGlobalAPI(Vue) 方法挂载 Vue 全局 api
 - 设置 Vue.prototype.$isServer getter 方法
   - 返回值是 config._isServer： process.env.VUE_ENV === 'server'
-  - process.env.VUE_ENV === 'server'：通过 npm 脚本控制VUE_ENV值
+  - process.env.VUE_ENV：通过 npm 脚本控制 VUE_ENV 值
 - 设置当前vue版本信息
 
 ## 源码
