@@ -44,7 +44,7 @@ export type Config = {
 
 ## config
 
-config 属性
+创建 Vue 初始化时的 config 配置
 
 ```js
 const config: Config = {
