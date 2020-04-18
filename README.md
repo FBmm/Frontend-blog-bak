@@ -18,6 +18,11 @@
     - [adEventListener、冒泡事件](example/dom操作/addEventListener.html)
     - [url替换为a标签](example/url替换为a标签/urlToElementA.html)
 
+- Vue 源码
+    - [v2.0.0](Vue源码/v2.0.0/README.md)
+        - [入口 - index.js](Vue源码/v2.0.0/入口-index.js.md)
+        - [全局配置-config.js](Vue源码/v2.0.0/全局配置-config.js.md)
+
 - nodeJS
     - [egg+mongoose](https://github.com/FBmm/egg-mongoose-example)
     - [egg+mysql](https://github.com/FBmm/egg-mysql-example)
