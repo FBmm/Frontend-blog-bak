@@ -3,7 +3,7 @@
 路径 - src\core\config.js
 
 - flow 声明 Config 对象类型
-- 实例化 config 对象参数以及初始值
+- 创建 config 对象以及初始化参数值
 
 ## import
 
