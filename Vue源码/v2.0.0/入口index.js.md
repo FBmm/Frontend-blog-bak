@@ -39,7 +39,7 @@ import Vue from './instance/index'
 - 设置 Vue.prototype.$isServer getter 方法
   - 返回值是 config._isServer： process.env.VUE_ENV === 'server'
   - process.env.VUE_ENV === 'server'：通过 npm 脚本控制VUE_ENV值
-- 设置当前vu版本信息
+- 设置当前vue版本信息
 
 ## 源码
 
@@ -58,6 +58,3 @@ Vue.version = '2.0.0'
 
 export default Vue
 ```
-
-
-
